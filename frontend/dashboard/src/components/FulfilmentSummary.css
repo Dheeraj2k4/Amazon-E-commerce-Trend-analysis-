@@ -1,0 +1,37 @@
+.fulfilment-summary {
+  margin-bottom: 2.5rem;
+}
+.summary-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.summary-card {
+  background: #f8f9fa;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 2rem 2.5rem;
+  min-width: 180px;
+  text-align: center;
+  flex: 1 1 180px;
+  transition: box-shadow 0.2s, transform 0.2s;
+  margin-bottom: 0.5rem;
+}
+.summary-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+  transform: translateY(-2px) scale(1.03);
+}
+.summary-card h3 {
+  margin: 0 0 0.7rem 0;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.summary-card p {
+  margin: 0.2rem 0;
+  font-size: 1.2rem;
+  color: #007bff;
+  font-weight: bold;
+} 
